@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <div className='footer flex flex-col gap-3 justify-center items-center bg-[#0a0a0a] relative bottom-0 w-full mt-0 text-white'>
       <div className="address relative flex justify-around items-center gap-12 pt-3 px-4">
-        <span><b>Address: </b>Springdale Public School, 123 Education Lane, Cityville, State, ZIP Code</span>
-        <span><b>Phone: </b>+1 (123) 456-7890</span>
-        <span><b>Email: </b>info@springdale.edu</span>
-        <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <span className='hidden md:block' ><strong>Address: </strong>Springdale Public School, 123 Education Lane, Cityville, State, ZIP Code</span>
+        <span><strong>Phone: </strong>+1 (123) 456-7890</span>
+        <span><strong>Email: </strong>info@springdale.edu</span>
+        <span className="flex flex-col md:flex-row sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a className="text-gray-400 hover:bg-[#2a2a2a] cursor-pointer p-2 rounded-full">
             <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
               <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>

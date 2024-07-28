@@ -1,4 +1,3 @@
-// src/pages/Faculty.js
 import React from 'react';
 
 const Faculty = () => {
@@ -43,15 +42,12 @@ const Faculty = () => {
 
   return (
     <div className="faculty-page">
-      {/* Header Section */}
       <header className="faculty-header bg-[#803fef] text-white py-8">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold">Faculty</h1>
           <p className="text-lg">Meet our dedicated and experienced faculty members</p>
         </div>
       </header>
-
-      {/* Faculty Profiles Section */}
       <section className="profiles-section py-8">
         <div className="container mx-auto px-12">
           <h2 className="text-3xl font-bold mb-4 text-center text-violet-400">Faculty Profiles</h2>

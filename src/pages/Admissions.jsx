@@ -1,4 +1,3 @@
-// src/pages/Admissions.js
 import React from 'react';
 
 const Admissions = () => {
@@ -13,7 +12,7 @@ const Admissions = () => {
       <section className="process-section py-8">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold mb-4 text-center text-violet-400">Admission Process</h2>
-          <p className="text-lg mb-8 text-center">
+          <p className="text-lg mb-8 text-center mx-2">
             Admission forms are available for download. Submit the completed form along with required documents at the school office.
           </p>
         </div>
@@ -21,7 +20,7 @@ const Admissions = () => {
       <section className="criteria-section bg-violet-100 py-8 shadow-md">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold mb-4 text-center text-[#803fef]">Admission Criteria</h2>
-          <p className="text-lg mb-8 text-center">
+          <p className="text-lg mb-8 text-center mx-2">
             Admission is based on merit and availability of seats. Entrance tests may be conducted for certain grades.
           </p>
         </div>

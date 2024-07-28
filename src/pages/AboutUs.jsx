@@ -1,4 +1,3 @@
-// src/pages/AboutUs.js
 import React from 'react';
 
 const AboutUs = () => {
@@ -51,8 +50,8 @@ const AboutUs = () => {
           <img src="https://via.placeholder.com/300" alt="Principal" className="mx-auto rounded-full" />
         </div>
       </section>
-      <section className='flex flex-col justify-center items-center py-8'>
-        <h2 className="text-3xl font-bold mb-2 text-violet-400">Infrastructure and Facilities</h2>
+      <section className='flex flex-col justify-center items-center py-8 mx-2'>
+        <h2 className="text-3xl font-bold mb-2 text-violet-400 text-center">Infrastructure and Facilities</h2>
         <ul className="list-disc list-inside text-gray-700">
           <li className='p-1 text-lg'><strong>State-of-the-art Science and Computer Labs:</strong> Equipped with the latest technology to enhance learning and practical skills.</li>
           <li className='p-1 text-lg'><strong>Spacious and Well-equipped Classrooms:</strong> Designed to facilitate effective teaching and a comfortable learning environment.</li>

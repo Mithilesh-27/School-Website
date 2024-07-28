@@ -1,4 +1,3 @@
-// src/pages/Gallery.js
 import React from 'react'
 
 const Gallery = () => {

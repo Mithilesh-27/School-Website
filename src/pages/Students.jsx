@@ -1,4 +1,3 @@
-// src/pages/Students.js
 import React from 'react';
 
 const Students = () => {
@@ -19,7 +18,7 @@ const Students = () => {
       <header className="students-header bg-[#803fef] text-white py-8">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold">Students</h1>
-          <p className="text-lg">Experience the vibrant life at Springdale Public School</p>
+          <p className="text-lg mx-2">Experience the vibrant life at Springdale Public School</p>
         </div>
       </header>
       <section className="detailed-activities-section py-8 bg-violet-100 px-12">
@@ -87,7 +86,7 @@ const Students = () => {
       <section className="achievements py-8 bg-gray-100">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold mb-4 text-center text-[#803fef]">Achievements</h2>
-          <ul className="list-disc list-inside text-center">
+          <ul className="list-disc list-inside text-center mx-2">
             {achievements.map((achievement, index) => (
               <li key={index} className="text-lg">{achievement}</li>
             ))}

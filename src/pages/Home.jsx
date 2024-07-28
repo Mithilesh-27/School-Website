@@ -7,8 +7,8 @@ const Home = () => {
     <>
       <div className='flex flex-col justify-center items-center bg-violet-100 py-4'>
         <img src="/logo.png" alt="logo" className='w-40' />
-        <h1 className='text-3xl pb-2 text-[#803fef] font-bold mt-4'>Springdale Public School</h1>
-        <span className='text-lg'>Welcome to Springdale Public School, where we nurture young minds for a brighter future.</span>
+        <h1 className='text-3xl pb-2 text-[#803fef] font-bold mt-4 text-center'>Springdale Public School</h1>
+        <span className='text-lg mx-2 text-center'>Welcome to Springdale Public School, where we nurture young minds for a brighter future.</span>
       </div>
       <Carousel />
       <section className="quick-links-section bg-gray-100 py-8">
