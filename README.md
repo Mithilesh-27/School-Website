@@ -4,6 +4,10 @@
 
 This project is a responsive school website designed to provide information about the school's curriculum, admissions process, faculty, students' life, and more.
 
+## Disclaimer
+
+This website is a fictional project created for demonstration purposes only. All information, including names, dates, and events, is purely fictional and should not be considered accurate or real. Any resemblance to actual schools is purely coincidental.
+
 ## Features
 
 - **Responsive Design**: The website is fully responsive and adapts to various screen sizes.
