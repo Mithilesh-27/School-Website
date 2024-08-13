@@ -1,12 +1,17 @@
-import { NavLink } from 'react-router-dom'
-import { memo, useState } from 'react'
+import { NavLink, useLocation } from 'react-router-dom'
+import { memo, useEffect, useState } from 'react'
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
+  const location = useLocation()
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(!isOpen)
   }
+
+  useEffect(() => {
+    setIsOpen(false)
+  }, [location])
  
   return (
     <nav className="bg-violet-400 text-white text-lg py-2 px-4 sticky top-0 z-20 border-b-[3px] border-[#803fef] flex justify-between items-end">
@@ -23,7 +28,7 @@ const Navbar = () => {
         <li><NavLink style={({ isActive }) => {return {backgroundColor: isActive ? "#803fef" : "", fontWeight: isActive? 'bold' : ""}}} className='w-full px-6 py-2 text-center lg:pb-3 lg:pt-2 lg:rounded-tr-md lg:rounded-tl-md lg:px-4' to="/contact-us">Contact Us</NavLink></li>
       </ul>
     </nav>
-  );
-};
+  )
+}
 
 export default memo(Navbar)
